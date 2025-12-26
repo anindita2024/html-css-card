@@ -1,0 +1,71 @@
+body {
+    background-color: blanchedalmond;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.Card {
+    padding: 10px;
+    margin: 10px auto;
+    width: 300px;
+    height: 550px;
+    background-color: aliceblue;
+    border-radius: 7px;
+    overflow: hidden;
+    box-shadow: 0 4px 10px gray;
+}
+
+.Card img {
+    width: 100%;
+    padding: 10px auto;
+    border-radius: 7px;
+}
+
+.Capsules {
+    padding: 10px;
+}
+
+.Capsule {
+    border-radius: 12px;
+    display: inline-block;
+    padding: 5px 12px;
+    border: 1px solid black;
+    font-size: 12px;
+    margin-right: 8px;
+    background-color: rgb(196, 247, 247);
+}
+
+.Content {
+    padding: 15px;
+}
+
+.Content h2 {
+    margin: 5px;
+
+    font-family: "Fleur De Leah", cursive;
+    font-weight: 400;
+    font-style: normal;
+
+}
+
+.Content p {
+    font-family: 'Fleur De Leah', cursive;
+    font-size: 14px;
+    color: black;
+    overflow: hidden;
+
+}
+
+button {
+    background-color: rgb(240, 207, 76);
+    color: rgb(43, 40, 40);
+    border: 1px solid black;
+    border-radius: 10px;
+    cursor: pointer;
+    display: block;
+    margin: 0 auto ;
+}
+
+button:hover {
+    background-color: rgb(248, 146, 13);
+    border-radius: 10px;
+}
